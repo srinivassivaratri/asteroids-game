@@ -1,5 +1,6 @@
 import pygame
 import random
+import math
 from constants import *
 from circleshape import CircleShape
 
@@ -13,3 +14,4 @@ class Asteroid(CircleShape):
     def update(self, dt):
         self.position += self.velocity * dt
 
+    
